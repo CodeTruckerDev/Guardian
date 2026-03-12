@@ -8,12 +8,8 @@ To był mój pierwszy poważny program, który naprawdę komuś (synowi) utrudni
 
 Został w oryginalnej formie – bez zmian i bez upiększania.
 
-### Co robiły wersje
-
-- v1.0 – lokalna data systemowa (łatwo obejść zmianą zegara)
-- v2.0 – data z internetu + sprawdzanie netu (na moment pisania w 2016 roku nie do obejścia)
-
 ## Wersja 1.0 (pierwsza, podstawowa)
+– lokalna data systemowa (łatwo obejść zmianą zegara)
 
 - Na starcie systemu zapisuje aktualną datę **z systemu lokalnego** do pliku tekstowego.
 - Porównuje trzy ostatnie wpisy w pliku.
@@ -23,6 +19,7 @@ Został w oryginalnej formie – bez zmian i bez upiększania.
 - Słaby punkt: wystarczy zmienić datę systemową, żeby obejść limit.
 
 ## Wersja 2.0 (ulepszona, działająca przez miesiące)
+– data z internetu + sprawdzanie netu (na moment pisania w 2016 roku nie do obejścia)
 
 - Na starcie systemu **sprawdza, czy jest połączenie z internetem** (jeśli nie – czeka 5 sekund i sprawdza ponownie).
 - Gdy internet jest → pobiera aktualną datę **z internetu** (nie z zegara systemowego).
